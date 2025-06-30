@@ -47,7 +47,7 @@ Whether you're a student, a professional, or a lifelong learner — LifeScape em
 <!-- Replace with actual screenshots or gifs -->
 
 <p align="center">
-  <img src="assets/dashboard-preview.png" alt="Dashboard UI Preview" width="700"/>
+  <img src="assets/dashboard_ui.png" alt="Dashboard UI Preview" width="700"/>
 </p>
 
 ---
