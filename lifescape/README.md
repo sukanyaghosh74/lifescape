@@ -24,7 +24,7 @@ blockchain/     # Smart contracts and scripts
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/sukanyaghosh74/lifescape.git
+git clone https://github.com/sukanyaghosh74/lifescape.git #ensure update 
 cd lifescape
 ```
 
