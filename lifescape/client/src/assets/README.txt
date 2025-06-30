@@ -1,0 +1,1 @@
+Place your design images (e.g., lifescape-banner.png, dashboard_ui.png) here for use in the UI. 

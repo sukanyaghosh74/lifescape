@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { register } from '../../features/user/userSlice';
 import { useNavigate } from 'react-router-dom';
+import banner from '../../assets/lifescape-banner.png';
 
 const Register = () => {
   const [username, setUsername] = useState('');
@@ -21,6 +22,7 @@ const Register = () => {
 
   return (
     <div className="auth-container">
+      <img src={banner} alt="LifeScape Banner" className="app-banner" />
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -49,7 +51,7 @@ const Register = () => {
         </button>
         {error && <div className="error">{error}</div>}
       </form>
-      <p>Already have an account? <a href="/login">Login</a></p>
+      <p style={{ marginTop: 16 }}>Already have an account? <a href="/login">Login</a></p>
     </div>
   );
 };
